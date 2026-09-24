@@ -75,10 +75,6 @@ Lane-Detection/
 │
 ├── lane_detection.py
 ├── video1.mp4
-├── output/
-│   ├── output1.png
-│   ├── output2.png
-│   └── output3.png
 │
 ├── README.md
 └── requirements.txt
@@ -279,7 +275,7 @@ Then display them in this README:
 
 ### Output 1
 
-![Lane Detection Output 1](output1.png)
+![Lane Detection Output 1](output1.mp4)
 
 
 ## 📈 Future Improvements
