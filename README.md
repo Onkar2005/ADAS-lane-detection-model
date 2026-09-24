@@ -120,12 +120,12 @@ The current program is configured to use:
 WEBCAM_INDEX = "video1.mp4"
 ```
 
-You can change this value in `lane_detection.py` to another video file.
+You can change this value in `ADAS-road-lane-detection-model.py` to another video file.
 
 ### 5. Run the program
 
 ```bash
-python lane_detection.py
+python ADAS-road-lane-detection-model.py
 ```
 
 A window will open showing the processed video.
@@ -272,27 +272,15 @@ The project uses a smoothing window of 8 frames by default.
 Add your generated output images to the repository, for example:
 
 ```text
-output/
-├── output1.png
-├── output2.png
-└── output3.png
+ output.png
 ```
 
 Then display them in this README:
 
 ### Output 1
 
-![Lane Detection Output 1](output/output1.png)
+![Lane Detection Output 1](output1.png)
 
-### Output 2
-
-![Lane Detection Output 2](output/output2.png)
-
-### Output 3
-
-![Lane Detection Output 3](output/output3.png)
-
-> Replace the image filenames above with your actual image filenames.
 
 ## 📈 Future Improvements
 
@@ -329,7 +317,7 @@ This project is intended as a **computer vision/educational prototype** and shou
 
 **Your Name**
 
-GitHub: `https://github.com/YOUR-USERNAME`
+GitHub: `https://github.com/Onkar2005/ADAS-lane-detection-model`
 
 ## 📄 License
 
